@@ -1,1 +1,3 @@
-
+site_name: Portfolio
+nav:
+  - Home: index.md

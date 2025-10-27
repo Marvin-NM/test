@@ -4,6 +4,11 @@ theme:
   palette:
     scheme: slate
     priamry: deep purple
+
+plugins:
+  - search
+  - tags
+  - blog
     
 nav:
   - Home: index.md

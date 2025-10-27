@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"","title":"Bienvenus sur mon portfolio","text":"<p>site fait avec mkdocs uhoo</p>"},{"location":"blog/","title":"Blog","text":""}]}

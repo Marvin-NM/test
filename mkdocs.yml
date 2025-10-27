@@ -1,5 +1,9 @@
 site_name: Portfolio
 theme:
   name: material
+  palette:
+    scheme: slate
+    priamry: deep purple
+    
 nav:
   - Home: index.md

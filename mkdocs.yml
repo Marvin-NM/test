@@ -1,6 +1,15 @@
-site_name: Portfolio
+site_name: "Blog"
+site_author: "Marvin-NM"
+copyright: " 2025 MarvinNNM - Tous droits réserver"
 theme:
   name: material
+  feature:
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.action.edit
+    - content.code.copy
   palette:
     scheme: slate
     priamry: deep purple
@@ -8,7 +17,11 @@ theme:
 plugins:
   - search
   - tags
-  - blog
+  - blog:
+      blog_dir; blog
+      post_readtime: true
+      post_date_format: long
+  - social
     
 nav:
   - Home: index.md
